@@ -11,10 +11,7 @@ import csv
 from datetime import date as d
 from pathlib import Path as fp
 
-
 class SportsFileOut:
-    def __init__(self):
-        return None
 
     def save_file_format(self):
         # A simple funtion that saves the correct file format
