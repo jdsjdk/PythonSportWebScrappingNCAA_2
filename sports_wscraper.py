@@ -122,8 +122,6 @@ class SportsWebScraper:
         fname = spf.sfout.save_file_format()
         spf.sfout.output_csvfile(fname, key1, key_list, sdict_list)
 
-        return None
-
 s_scrap = SportsWebScraper()
 
 s_scrap.main()
